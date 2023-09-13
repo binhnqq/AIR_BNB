@@ -1,0 +1,701 @@
+.gallery-our.gallery_2 {
+  padding-top: 55px;
+  padding-bottom: 75px;
+}
+.gallery-our.gallery_1 {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+.gallery-our.wrap-gallery-restaurant {
+  background: none;
+  padding-bottom: 50px;
+}
+.gallery-our {
+  text-align: center;
+  background: url(http://landing.engotheme.com/html/skyline/demo/images/Home-1/bg-gallery.jpg);
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.gallery-our.wrap-gallery-restaurant .gallery-restaurant {
+  margin: auto;
+}
+.gallery-our .gallery {
+  margin: 0 160px;
+}
+.text-uppercase,
+.initialism {
+  text-transform: uppercase;
+}
+.gallery-our.wrap-gallery-restaurant .gallery-restaurant ul {
+  margin-bottom: 35px;
+}
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-left: -5px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.gallery-our.gallery_2 .gallery-content {
+  margin-top: -13px;
+}
+.gallery-isotope.col-3 .item-isotope,
+.gallery-isotope.col-3 .item-size {
+  width: 25%;
+}
+.gallery-isotope .item-isotope {
+  float: left;
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.gallery-our.gallery_1 .wrap-box-1 {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+.gallery-our.gallery_1 .wrap-box-1 .box-img:before {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 35%;
+  position: absolute;
+  content: "";
+  pointer-events: none;
+  background-color: transparent;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.gallery-our.gallery_1 .wrap-box-1 .box-img p {
+  position: absolute;
+  bottom: -14px;
+  padding: 0px 25px 6px 25px;
+  text-align: left;
+  color: #fff;
+  font-size: 18px;
+  line-height: 23px;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  max-width: 260px;
+}
+
+.gallery-our.gallery_1 .wrap-box-1 .box-img img {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.gallery-our.gallery_1 .wrap-box-1:hover .box-img img {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery-our.gallery_1 .wrap-box-1:hover .box-img p {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+}
+
+.img1 {
+  position: absolute;
+  left: 25%;
+  top: 0px;
+}
+
+.img2 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+
+.img3 {
+  position: absolute;
+  left: 75%;
+  top: 0;
+}
+
+.img4 {
+  position: relative;
+  left: -1%;
+  top: 411px;
+}
+
+.img5 {
+  position: relative;
+  left: -33px;
+  top: 612px;
+}
+
+.img6 {
+  position: relative;
+  left: -30%;
+
+  top: 414px;
+}
+.img7 {
+  position: relative;
+  left: 23%;
+  top: 204px;
+}
+.img8 {
+  position: relative;
+  left: -4%;
+  top: -12px;
+}
+.img9 {
+  position: absolute;
+  left: 0%;
+  top: 617;
+}
+.img10 {
+  position: absolute;
+  left: 25%;
+  top: 807px;
+}
+
+.img11 {
+  position: relative;
+  left: 231px;
+  top: -47px;
+}
+.img12 {
+  position: relative;
+  left: 75%;
+  top: -22px;
+}
+.img13 {
+  position: absolute;
+  left: 0;
+  top: 806px;
+}
+.img14 {
+  position: absolute;
+  left: 4px;
+  top: 197px;
+}
+.img15 {
+  position: absolute;
+  left: 50%;
+  top: 807px;
+}
+.img16 {
+  position: absolute;
+  left: 50%;
+  top: 1004px;
+}
+.imgitem {
+  position: absolute;
+  left: 0%;
+  top: 0px;
+}
+.screen {
+  position: relative;
+  height: 1200px;
+}
+@media only screen and (max-width: 768px) {
+  .img1 {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+  }
+  .img2 {
+    display: none;
+  }
+  .img9 {
+    position: absolute;
+    left: 6%;
+    top: 617;
+  }
+  .img14 {
+    left: 45px;
+    top: 197px;
+  }
+  .img3 {
+    position: absolute;
+    left: 50%;
+    top: 392px;
+  }
+  .img4 {
+    position: relative;
+    left: 30px;
+    top: 392px;
+  }
+  .img5 {
+    position: relative;
+    left: -270px;
+    top: 779px;
+  }
+  .img7 {
+    position: relative;
+    left: 50%;
+    top: 362px;
+  }
+  .img13 {
+    position: absolute;
+    left: 45px;
+    top: 972px;
+  }
+  .img10 {
+    position: absolute;
+    left: 50%;
+    top: 973px;
+  }
+  .img8 {
+    position: relative;
+    left: 45px;
+    top: 950px;
+  }
+  .img15 {
+    position: absolute;
+    left: 45px;
+    top: 1368px;
+  }
+  .img16 {
+    position: absolute;
+    left: 50%;
+    top: 1559px;
+  }
+  .img7 {
+    position: relative;
+    left: 31px;
+    top: 1142px;
+  }
+  .img6 {
+    position: relative;
+    left: 45px;
+    top: 573px;
+  }
+  .imgitem {
+    position: absolute;
+    left: 50%;
+    top: 1759px;
+  }
+  .img11 {
+    position: relative;
+    left: -39%;
+    top: 1324px;
+  }
+  .img12 {
+    position: relative;
+    left: 50%;
+    top: 918px;
+  }
+  .screen {
+    position: relative;
+    height: 2353px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .screen {
+    position: relative;
+    height: 4600px;
+  }
+  .img14 {
+    left: 45px;
+    top: 197px;
+  }
+  .img9 {
+    left: 45px;
+  }
+  .img1 {
+    left: 45px;
+    top: 798px;
+  }
+  .img13 {
+    left: 45px;
+    top: 1190px;
+  }
+  .img3 {
+    left: 45px;
+    top: 3410px;
+  }
+  .img10 {
+    left: 45px;
+    top: 1573px;
+  }
+  .img6 {
+    left: 30px;
+    top: 1754px;
+  }
+  .img11 {
+    left: 9%;
+    top: 1550px;
+  }
+  .img12 {
+    left: 30px;
+    top: 1553px;
+  }
+  .img8 {
+    top: 2590px;
+    left: 30px;
+  }
+  .img15 {
+    position: absolute;
+    left: 45px;
+    top: 3800px;
+  }
+  .img16 {
+    position: absolute;
+    left: 45px;
+    top: 4000px;
+  }
+  .img5 {
+    position: absolute;
+    left: 45px;
+    top: 4200px;
+  }
+  .img7 {
+    position: absolute;
+    left: 45px;
+    top: 1970px;
+  }
+  .imgitem {
+    left: 45px;
+    top: 4400px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .screen {
+    position: relative;
+    height: 4600px;
+  }
+  .img14 {
+    left: 45px;
+    top: 197px;
+  }
+  .img9 {
+    left: 45px;
+  }
+  .img1 {
+    left: 45px;
+    top: 798px;
+  }
+  .img13 {
+    left: 45px;
+    top: 1190px;
+  }
+  .img3 {
+    left: 45px;
+    top: 3410px;
+  }
+  .img10 {
+    left: 45px;
+    top: 1573px;
+  }
+  .img6 {
+    left: 30px;
+    top: 1754px;
+  }
+  .img11 {
+    left: 9%;
+    top: 1550px;
+  }
+  .img12 {
+    left: 30px;
+    top: 1553px;
+  }
+  .img8 {
+    top: 2590px;
+    left: 30px;
+  }
+  .img15 {
+    position: absolute;
+    left: 45px;
+    top: 3800px;
+  }
+  .img16 {
+    position: absolute;
+    left: 45px;
+    top: 4000px;
+  }
+  .img5 {
+    position: absolute;
+    left: 45px;
+    top: 4200px;
+  }
+  .img7 {
+    position: absolute;
+    left: 45px;
+    top: 1970px;
+  }
+  .imgitem {
+    left: 45px;
+    top: 4400px;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  .screen {
+    position: relative;
+    height: 4600px;
+  }
+  .img14 {
+    left: 45px;
+    top: 197px;
+  }
+  .img9 {
+    left: 45px;
+  }
+  .img1 {
+    left: 45px;
+    top: 798px;
+  }
+  .img13 {
+    left: 45px;
+    top: 1190px;
+  }
+  .img3 {
+    left: 45px;
+    top: 3410px;
+  }
+  .img10 {
+    left: 45px;
+    top: 1573px;
+  }
+  .img6 {
+    left: 30px;
+    top: 1754px;
+  }
+  .img11 {
+    left: 9%;
+    top: 1550px;
+  }
+  .img12 {
+    left: 30px;
+    top: 1553px;
+  }
+  .img8 {
+    top: 2590px;
+    left: 30px;
+  }
+  .img15 {
+    position: absolute;
+    left: 45px;
+    top: 3800px;
+  }
+  .img16 {
+    position: absolute;
+    left: 45px;
+    top: 4000px;
+  }
+  .img5 {
+    position: absolute;
+    left: 45px;
+    top: 4200px;
+  }
+  .img7 {
+    position: absolute;
+    left: 45px;
+    top: 1970px;
+  }
+  .imgitem {
+    left: 45px;
+    top: 4400px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .img1 {
+    position: absolute;
+    left: 35%;
+    top: 0px;
+  }
+
+  .img2 {
+    position: absolute;
+    left: 67%;
+    top: 0;
+  }
+
+  .img3 {
+    position: absolute;
+    left: 68%;
+    top: 1214px;
+  }
+
+  .img4 {
+    position: relative;
+    left: -1%;
+    top: 411px;
+  }
+
+  .img5 {
+    position: relative;
+    left: 21px;
+    top: 612px;
+  }
+
+  .img6 {
+    position: relative;
+    left: -30%;
+
+    top: 414px;
+  }
+  .img7 {
+    left: 2%;
+    top: 1003px;
+  }
+  .img8 {
+    position: relative;
+    left: 3%;
+    top: -12px;
+  }
+  .img9 {
+    position: absolute;
+    left: 0%;
+    top: 617;
+  }
+  .img10 {
+    position: absolute;
+    left: 0%;
+    top: 1213px;
+  }
+
+  .img11 {
+    position: relative;
+    left: 27px;
+    top: -6px;
+  }
+  .img12 {
+    position: relative;
+    left: 68%;
+    top: -22px;
+  }
+  .img13 {
+    position: absolute;
+    left: 335px;
+    top: 806px;
+  }
+  .img14 {
+    position: absolute;
+    left: 4px;
+    top: 197px;
+  }
+  .img15 {
+    position: absolute;
+    left: 6px;
+    top: 807px;
+  }
+  .img16 {
+    position: absolute;
+    left: 6px;
+    top: 1004px;
+  }
+  .imgitem {
+    position: absolute;
+    left: 0%;
+    top: 0px;
+  }
+  .screen {
+    position: relative;
+    height: 1600px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .img1 {
+    position: absolute;
+    left: 25%;
+    top: 0px;
+  }
+
+  .img2 {
+    position: absolute;
+    left: 50%;
+    top: 0;
+  }
+
+  .img3 {
+    position: absolute;
+    left: 75%;
+    top: 0;
+  }
+
+  .img4 {
+    position: relative;
+    left: -1%;
+    top: 411px;
+  }
+
+  .img5 {
+    position: relative;
+    left: -33px;
+    top: 612px;
+  }
+
+  .img6 {
+    position: relative;
+    left: -30%;
+
+    top: 414px;
+  }
+  .img7 {
+    position: relative;
+    left: 23%;
+    top: 204px;
+  }
+  .img8 {
+    position: relative;
+    left: -4%;
+    top: -12px;
+  }
+  .img9 {
+    position: absolute;
+    left: 0%;
+    top: 617;
+  }
+  .img10 {
+    position: absolute;
+    left: 25%;
+    top: 807px;
+  }
+
+  .img11 {
+    position: relative;
+    left: 231px;
+    top: -47px;
+  }
+  .img12 {
+    position: relative;
+    left: 75%;
+    top: -22px;
+  }
+  .img13 {
+    position: absolute;
+    left: 0;
+    top: 806px;
+  }
+  .img14 {
+    position: absolute;
+    left: 4px;
+    top: 197px;
+  }
+  .img15 {
+    position: absolute;
+    left: 50%;
+    top: 807px;
+  }
+  .img16 {
+    position: absolute;
+    left: 50%;
+    top: 1004px;
+  }
+  .imgitem {
+    position: absolute;
+    left: 0%;
+    top: 0px;
+  }
+  .screen {
+    position: relative;
+    height: 1200px;
+  }
+}

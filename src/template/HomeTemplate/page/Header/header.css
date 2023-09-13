@@ -1,0 +1,300 @@
+.header {
+  background: rgba(74, 74, 74, 0.35);
+  backdrop-filter: blur(2px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.PageHome {
+  position: fixed;
+  top: 86px;
+  background: rgba(74, 74, 74, 0.35);
+  backdrop-filter: blur(2px);
+  width: 100%;
+  left: 0px;
+  padding-left: 415px;
+}
+.logo > img {
+  width: 75%;
+  position: relative;
+  top: 10px;
+  left: 684px;
+}
+
+.icon > a {
+  cusor: poniter !important;
+  color: white;
+  font-weight: 700;
+}
+
+.icon > a:hover {
+  background: transparent;
+  color: #8e7037;
+}
+
+.log-in-out {
+  position: absolute;
+  top: 30px;
+  left: 1125px;
+  color: white;
+  font-size: 15px;
+}
+
+.btn-sigout {
+  width: 70%;
+  height: 39px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+.btn-sigout:hover {
+  background: white;
+}
+.btn-sigup {
+  width: 70%;
+  height: 39px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+.nav-item > a {
+  color: white !important;
+  font-weight: 700;
+}
+
+.nav-item > a:hover {
+  background: transparent;
+  color: #8e7037 !important;
+}
+
+.btn:hover {
+  color: #8e7037 !important;
+  background-color: white;
+  border-color: #8e7037 !important;
+}
+
+.login > a {
+  color: #fff !important;
+}
+
+.login > a:hover {
+  color: #8e7037 !important;
+}
+
+.sigup > a {
+  color: #fff !important;
+}
+
+.sigup > a:hover {
+  color: #8e7037 !important;
+}
+.nav {
+  margin-left: 145px;
+}
+.user {
+  width: 32px;
+  height: 32px;
+  lineheight: 35px;
+  borderradius: 20px;
+  backgroundcolor: pink;
+}
+
+.content1 {
+  position: absolute;
+  top: 40px;
+  left: 230px;
+  color: white;
+  fontsize: 15px;
+}
+
+.phone1 {
+  position: absolute;
+  top: 40px;
+  left: 495px;
+  color: white;
+  fontsize: 15px;
+}
+.icon1 {
+  position: absolute;
+  top: 40px;
+  left: 897px;
+
+  fontsize: 15px;
+}
+.icon1 > a {
+  color: white;
+}
+.icon1 > a:hover {
+  color: #8e7037 !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .content1 {
+    top: 40px;
+    left: 70px;
+  }
+  .phone1 {
+    top: 37px;
+    left: 328px;
+  }
+  .logo > img {
+    top: 2px;
+    left: 479px;
+  }
+  .icon1 {
+    top: 31px;
+    left: 673px;
+  }
+  .log-in-out {
+    top: 20px;
+    left: 892px;
+  }
+  .nav {
+    margin-left: -40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .content1 {
+    top: 40px;
+    left: 20px;
+  }
+  .phone1 {
+    top: 37px;
+    left: 259px;
+  }
+  .logo > img {
+    top: 2px;
+    left: 404px;
+  }
+  .icon1 {
+    top: 31px;
+    left: 573px;
+  }
+  .log-in-out {
+    top: 25px;
+    left: 782px;
+  }
+  .nav {
+    margin-left: -122px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    background: #01060a;
+  }
+  .nav {
+    margin-left: 0;
+    display: block !important;
+  }
+  .content1 {
+    display: none;
+  }
+  .phone1 {
+    display: none;
+  }
+  .logo > img {
+    top: 5px;
+    left: -270px;
+    width: 65%;
+  }
+  .icon1 {
+    display: none;
+  }
+  .log-in-out {
+    position: absolute;
+    top: 30px;
+    left: 450px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .header {
+    background: #01060a;
+  }
+  .nav {
+    margin-left: 0;
+    display: block !important;
+  }
+  .content1 {
+    display: none;
+  }
+  .phone1 {
+    display: none;
+  }
+  .logo > img {
+    top: 1px;
+    left: -80px;
+    width: 50%;
+  }
+  .icon1 {
+    display: none;
+  }
+  .log-in-out {
+    top: 30px;
+    left: 220px;
+  }
+  .login {
+    font-size: 10px;
+  }
+  .sigup > a {
+    font-size: 10px;
+  }
+  .login > a {
+    font-size: 10px;
+  }
+  .sigup {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .log-in-out {
+    position: absolute;
+    top: 10px;
+    left: 251px;
+  }
+  .logo > img {
+    top: 1px;
+    left: -50px;
+    width: 50%;
+  }
+  .log-in-out {
+    top: 30px;
+    left: 220px;
+  }
+  .login {
+    font-size: 10px;
+  }
+  .login > a {
+    font-size: 10px;
+  }
+  .sigup > a {
+    font-size: 10px;
+  }
+  .logout {
+    font-size: 8px;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  .nav {
+    margin-left: 670px;
+  }
+  .content1 {
+    margin-left: 515px;
+  }
+  .phone1 {
+    left: 998px;
+  }
+  .logo > img {
+    left: 1200px;
+  }
+  .icon1 {
+    left: 1415px;
+  }
+  .log-in-out {
+    left: 1620px;
+  }
+}

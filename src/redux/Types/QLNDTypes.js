@@ -1,0 +1,7 @@
+export const REGISTER = "REGISTER"
+export const SIGIN = "SIGIN"
+export const USERID = "USERID"
+export const PUTUSERID = "PUTUSERID"
+export const GETUSER = "GETUSER"
+export const DELETE_USER = "DELETE_USER"
+export const POST_USER = "DELETE_USER"

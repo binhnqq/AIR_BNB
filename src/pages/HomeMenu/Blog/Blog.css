@@ -1,0 +1,144 @@
+.events.events-v4 {
+    margin-bottom: -30px;
+}
+.events.events-v3 {
+    margin-top: 60px;
+}
+ .events-title {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    color: #232323
+}
+
+.events .line {
+    width: 300px;
+    height: 1px;
+    background: #8e7037;
+    margin-top: 22px;
+    margin-bottom: 45px;
+}
+
+.events .owl-carousel {
+    margin-top: 40px;
+}
+
+ .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+}
+
+.events-item {
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+    cursor: pointer;
+}
+
+
+.events .events-item:hover img {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.events.events-v4 .events-item img {
+    z-index: -1;
+}
+
+
+.events-content {
+    position: absolute;
+    bottom: -55%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: -165px;
+}
+.sky-p{
+    font-size: 14px;
+    color: #FFF;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+.sky-p1{
+    font-size: 14px;
+    color: #FFF;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+.events.events-v4 .events-item .v4 {
+    font-size: 48px;
+    color:white;
+}
+
+
+.own{
+    width:100%;
+}
+
+.own1{
+    width:100%;
+}
+
+@media only screen and (max-width: 1200px){
+    .own{
+        width: 89%;
+        margin-top: 0px;
+        margin-left: 53px;
+    }
+
+    .events-content{
+        left: -120px
+    }
+    
+}
+
+
+@media only screen and (max-width: 768px){
+    .own {
+        width: 100%;
+        margin-top: 630px;
+        margin-left: -360px;
+    }
+    
+}
+
+@media only screen and (max-width: 576px){
+    .own{
+        width:100%;
+        margin-top:630px;
+        margin-left:0px;
+    }
+    .events.events-v4 .events-item .v4 {
+        margin-left: 180px;
+        font-size: 30px;
+        color: white;
+    }
+    .sky-p1{
+        margin-left:70px;
+    }
+    .line-v2 {
+        margin: auto;
+        width: 300px;
+        height: 2px;
+        background: #8e7037;
+        margin-top: 22px;
+        margin-bottom: 40px;
+        margin-right: 434px;
+    }
+
+    .room-p {
+        color: #ABABAB;
+        font-weight: 300;
+        font-size: 25px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .input-group {
+        width: 475px !important;
+        border: 2px solid white;
+        margin-left: -4px;
+    }
+}

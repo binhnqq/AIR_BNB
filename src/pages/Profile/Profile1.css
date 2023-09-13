@@ -1,0 +1,37 @@
+.profile-background{
+    
+    background:url(https://landing.engotheme.com/html/skyline/demo/images/Login/login.jpg) no-repeat;
+        paddingTop: "350px",
+}
+
+.profile1{
+    width: 80%;
+    background:  #ffffff;
+height: 600px;
+border: solid 1px grey;
+border-radius: 20px;
+margin-bottom: 25px;
+}
+
+.under{
+    background-color: #e5d4d4;
+    width: 80%;
+    margin-left: 33px;
+}
+
+.render{
+    overflow-Y:scroll;
+    height:500px;
+}
+
+@media (max-width: 576px) {
+    .profile1{
+        width: 100%;
+    }
+}
+  
+  @media (max-width: 768px) {
+    .profile1{
+        width: 100%;
+    }
+  }
